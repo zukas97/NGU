@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	background-color: #5c5c5c;
+}
+html {
+	margin: 0;
+	padding: 0;
+	margin-top: 0;
+
+}
+#navbar {
+	background-color: #000000;
+	top: 0;
+	left: 0;
+	position: fixed;
+	padding-top: 25px;
+	width: 10%;
+	height: 100%;
+	margin-top: 88px;
+	z-index: 0;
+}
+
+#titlebar {
+	text-align: center;
+	color: #ebebeb;
+	background-color: #181818;
+	top: 0;
+	margin-top: 0;
+	padding: 1px;
+	z-index: 100;
+}
