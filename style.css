@@ -46,6 +46,9 @@ html {
 .button:hover {
 	background-color: #4b5163;
 }
+.heading {
+	font-size: 25px;
+}
 .subheading {
 	color: #ffffff;
 	text-align: center;
