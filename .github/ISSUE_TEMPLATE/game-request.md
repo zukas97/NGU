@@ -7,6 +7,6 @@ assignees: ''
 
 ---
 
-- [X] The game I requested is available on a website or as an html file
+- [ ] The game I requested is available on a website or as an HTML file
 
 type a capital X in the brackets to check the box (delete the space)
