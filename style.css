@@ -17,7 +17,7 @@ html {
 	width: 5%;
 	height: 100%;
 	z-index: 2;
-	transition: width 1s;
+	transition: width 0.5s;
 }
 #navbar:hover {
 	width: 10%;
