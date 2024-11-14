@@ -3,14 +3,21 @@
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 	<title>NGU - New Gamer Union</title>
 	<header id="titlebar">
 	<h1 class="heading">NGU</h1>
 	</header>
 	</head>
 	
-
-	<script id="navbar-placeholder" src="navbar.js"></script>
+	<div id="nav-placeholder">
+	</div>
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("navbar.html");
+	});
+	</script>
 
 	<body>
 		<h2 class="subheading">Disclaimer: PLEASE READ</h2>
@@ -18,6 +25,6 @@
 			This site is meant for playing games durring school to pass the time AFTER your schoolwork is done. If you get in trouble for using this it is YOUR fault. Not ours.
 		</p>
 	</body>
-	<script src="script.js" defer></script>
+
 </html>
 

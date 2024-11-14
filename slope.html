@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<script id="navbar-placeholder" src="navbar.js"></script>
-	<!---- <iframe style="text-align: center;" src="//windowslover1234.github.io/games/slope/" width="99.8%%" height="700" scrolling="no"></iframe> >-->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("navbar.html");
+	});
+	</script>
+	<div id="nav-placeholder">
+	</div>
+	<iframe style="text-align: center;" src="//windowslover1234.github.io/games/slope/" width="99.8%%" height="700" scrolling="no"></iframe>
 </html>
