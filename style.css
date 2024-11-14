@@ -14,7 +14,7 @@ html {
 	left: 0;
 	position: fixed;
 	padding-top: 80px;
-	width: 10%;
+	width: 5%;
 	height: 100%;
 	z-index: 0;
 }
@@ -27,4 +27,7 @@ html {
 	margin-top: 0;
 	padding: 1px;
 	z-index: 100;
+}
+.button {
+	width: 100%;
 }
