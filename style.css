@@ -42,6 +42,7 @@ html {
 	border: 0;
 	transition: background-color 0.3s;
 	height: 30px;
+	font-size: 0.9vw;
 }
 .button:hover {
 	background-color: #4b5163;
