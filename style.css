@@ -1,5 +1,5 @@
 body {
-	margin: 0;
+	margin: 30px;
 	background-color: #5c5c5c;
 }
 html {
@@ -39,4 +39,7 @@ html {
 .SH {
 	color: #ffffff;
 	text-align: center;
+}
+.BT {
+	color: #ffffff;
 }
