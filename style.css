@@ -1,5 +1,5 @@
 body {
-	margin: 30px;
+	margin:0;
 	background-color: #5c5c5c;
 }
 html {
@@ -9,12 +9,12 @@ html {
 
 }
 #navbar {
-	background-color: #000000;
+	background-color: #2f333e;
 	top: 0;
 	left: 0;
 	position: fixed;
 	padding-top: 80px;
-	width: 5%;
+	width: 3%;
 	height: 100%;
 	z-index: 2;
 	transition: width 0.5s;
@@ -32,9 +32,17 @@ html {
 	padding: 1px;
 	position: sticky;
 	z-index: 1;
+	width: 100%
 }
 .button {
 	width: 100%;
+	background-color: #2f333e;
+	color:white;
+	border: 0;
+	transition: background-color 0.3s;
+}
+.button:hover {
+	background-color: #4b5163;
 }
 .subheading {
 	color: #ffffff;
@@ -42,4 +50,5 @@ html {
 }
 .text {
 	color: #ffffff;
+	text-align: center;
 }
