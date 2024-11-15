@@ -2,7 +2,7 @@
 name: Game Request
 about: Give requests for web based games to be added.
 title: ''
-labels: ''
+labels: Game Request
 assignees: ''
 
 ---
