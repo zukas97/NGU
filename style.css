@@ -9,6 +9,7 @@ html {
 
 }
 #navbar {
+	padding-top: 80px;
 	background-color: #2f333e;
 	top: 0;
 	left: 0;
@@ -66,4 +67,9 @@ html {
 .text {
 	color: #ffffff;
 	text-align: center;
+}
+
+.game {
+	text-align: right;
+	float: right;
 }
