@@ -13,11 +13,13 @@ html {
 	top: 0;
 	left: 0;
 	position: fixed;
-	padding-top: 80px;
 	width: 3%;
 	height: 100%;
 	z-index: 2;
 	transition: width 0.5s;
+	overflow: hidden;
+	text-align: center;
+	color: #ffffff;
 }
 #navbar:hover {
 	width: 10%;
@@ -47,8 +49,15 @@ html {
 .button:hover {
 	background-color: #4b5163;
 }
+.navbar_top {
+	visibility: hidden;
+}
+.navbar:hover + .navbar_top {
+	visibility: visible;
+}
 .heading {
 	font-size: 35px;
+	color: #ffffff;
 }
 .subheading {
 	color: #ffffff;
