@@ -1,11 +1,14 @@
 body {
 	margin:0;
 	background-color: #404040;
+	flex-direction: column;
+	flex: 1;
 }
 html {
 	margin: 0;
 	padding: 0;
 	margin-top: 0;
+	flex-direction: column;
 
 }
 #footer {
@@ -13,6 +16,7 @@ html {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	flex: 1;
 }
 #github {
 	width: 150px;
@@ -71,11 +75,12 @@ html {
 	border: 0;
 	transition: background-color 0.3s;
 	height: 30px;
-	font-size: 0.9vw;
+	font-size: 80%;
 	cursor: pointer;
 }
 .button:hover {
 	background-color: #4b5163;
+	cursor: pointer;
 }
 .navbar_top {
 	visibility: hidden;
