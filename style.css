@@ -16,7 +16,6 @@ html {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	flex: 1;
 }
 #github {
 	width: 150px;
@@ -29,10 +28,11 @@ html {
 	align-items: center;
 	align-self: center;
 	text-align: center;
-	float: center;
+
 	border: 0;
 	cursor: pointer;
 	transition: background-color 0.3s;
+
 	
 }
 #github:hover {
@@ -53,6 +53,22 @@ html {
 	text-align: center;
 	color: #ffffff;
 }
+#navbar:hover .button{
+	width: 100%;
+	background-color: #2f333e;
+	color:white;
+	border: 0;
+	transition: background-color 0.3s;
+	height: 30px;
+	font-size: 80%;
+	cursor: pointer;
+	display: block;
+}
+#navbar:hover .button:hover {
+	background-color: #4b5163;
+	cursor: pointer;
+}
+
 #navbar:hover {
 	width: 10%;
 }
@@ -70,25 +86,14 @@ html {
 	margin-left: 1%;
 }
 .button {
-	width: 100%;
-	background-color: #2f333e;
-	color:white;
-	border: 0;
-	transition: background-color 0.3s;
-	height: 30px;
-	font-size: 80%;
-	cursor: pointer;
+
+	display: none;
 }
-.button:hover {
-	background-color: #4b5163;
-	cursor: pointer;
-}
+
 .navbar_top {
 	visibility: hidden;
 }
-.navbar:hover + .navbar_top {
-	visibility: visible;
-}
+
 .heading {
 	font-size: 35px;
 	color: #ffffff;
@@ -105,4 +110,8 @@ html {
 .game {
 	text-align: right;
 	float: right;
+}
+
+.logo {
+	width: 3vw;
 }
