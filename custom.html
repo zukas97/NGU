@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="./images/NGU.png">
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("navbar.html");
+	});
+	</script>
+	<div id="nav-placeholder">
+	</div>
+	<input type="utl" id="urlInput" placeholder="Enter URL Here">
+	<button id="setURL">Set URL</button>
+	<script src="script.js"></script>
+	<iframe class="game" id="customSite" width="97%" height="700" scrolling="no"></iframe>
