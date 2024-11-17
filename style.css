@@ -11,6 +11,10 @@ html {
 	flex-direction: column;
 
 }
+#urlbar {
+	text-align: center;
+	padding: 10px;
+}
 #footer {
 	text-align: center;
 	align-items: center;
