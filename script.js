@@ -44,7 +44,7 @@ document.getElementById('setURL').addEventListener('click', function() {
 
 });
 
-document,getElementById('reloadButton').addEventListener('click', function() {
+document.getElementById('reloadButton').addEventListener('click', function() {
 	var iframe = document.getElementById('customSite');
 	iframe.contentWindow.location.reload();
 
