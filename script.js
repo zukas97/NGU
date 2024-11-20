@@ -37,7 +37,7 @@ document.getElementById('setURL').addEventListener('click', function() {
 
 	checkurl(url);
 
-	if (blocked) {
+	if (!blocked) {
 		iframe.src = url;
 
 	}
