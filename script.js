@@ -22,6 +22,12 @@ function checkurl(inputstring) {
 		case inputstring.includes("xhamster"):
 			blocked = true;
 			break;
+		case inputstring.includes("xvideos"):
+			blocked = true;
+			break;
+		case inputstring.includes("damplips"):
+			blocked = true;
+			break;
 		default:
 			blocked = false;
 			break;

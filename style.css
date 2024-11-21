@@ -114,6 +114,8 @@ html {
 .game {
 	text-align: right;
 	float: right;
+	width: 96%;
+	height: 48vw;
 }
 
 .logo {
