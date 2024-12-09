@@ -36,22 +36,27 @@ function checkurl(inputstring) {
 }
 
 
-
+var iframe = document.getElementById('customSite');
 document.getElementById('setURL').addEventListener('click', function() {
 	var url = document.getElementById('urlInput').value;
-	var iframe = document.getElementById('customSite');
+	
 
 	checkurl(url);
-
 	if (!blocked) {
 		iframe.src = url;
-
+	}
+	else {
+		console.log("page blocked");
 	}
 
 });
 
+
+
 document.getElementById('reloadButton').addEventListener('click', function() {
 	var iframe = document.getElementById('customSite');
+	iframe.src = iframe.src;
 	iframe.contentWindow.location.reload();
+	console.log("reloaded");
 
 });
