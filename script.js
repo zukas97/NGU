@@ -45,8 +45,9 @@ document.getElementById('setURL').addEventListener('click', function() {
 	if (!blocked) {
 		iframe.src = url;
 	}
-	else {
+	else if (blocked) {
 		console.log("page blocked");
+		alert("page blocked");
 	}
 
 });
@@ -54,8 +55,7 @@ document.getElementById('setURL').addEventListener('click', function() {
 
 
 document.getElementById('reloadButton').addEventListener('click', function() {
-	var iframe = document.getElementById('customSite');
-	iframe.src = iframe.src;
+	//iframe.src = iframe.src;
 	iframe.contentWindow.location.reload();
 	console.log("reloaded");
 
