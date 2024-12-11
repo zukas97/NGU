@@ -34,8 +34,8 @@ function checkurl(inputstring) {
 
 	}
 }
-var iframe = document.getElementById('customSite');
 document.getElementById('setURL').addEventListener('click', function() {
+	var iframe = document.getElementById('customSite');
 	var url = document.getElementById('urlInput').value;
 	
 
@@ -54,6 +54,7 @@ document.getElementById('setURL').addEventListener('click', function() {
 
 document.getElementById('reloadButton').addEventListener('click', function() {
 	//iframe.src = iframe.src;
+	var iframe = document.getElementById('customSite');
 	iframe.contentWindow.location.reload();
 	console.log("reloaded");
 });
