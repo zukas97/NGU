@@ -106,8 +106,8 @@ html {
 #title_background {
 	position: absolute;
 	top: -5px;
-	left: 0;
-	right: 0;
+	left: -5px;
+	right: -5px;
 	background-image: url("./images/keyboard.jpg");
 	padding: 1px;
 	padding-top: 5%;
