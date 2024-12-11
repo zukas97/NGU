@@ -84,7 +84,7 @@ html {
 	color: #ffffff;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	position: relative;
-	z-index: 3;
+	z-index: 2;
 }
 
 #titlebar {
@@ -94,17 +94,29 @@ html {
 	margin-top: auto;
 	padding: 1px;
 	position: sticky;
-	z-index: 0;
 	width: 99%;
 	margin-left: 1%;
-	background-image: linear-gradient(45deg, #1b232d, #101425);
-	
-	/*background-image: url("./images/keyboard.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	z-index: 1;
+	/*background-image: linear-gradient(45deg, #1b232d, #101425);*/
 	padding-top: 5%;
 	padding-bottom: 5%;
-	background-position-y: 50%;*/
+	
+
+}
+#title_background {
+	position: absolute;
+	top: -5px;
+	left: 0;
+	right: 0;
+	background-image: url("./images/keyboard.jpg");
+	padding: 1px;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	filter: blur(5px);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 50%;
+	z-index: 0;
 
 }
 .button {
@@ -119,10 +131,12 @@ html {
 .subheading {
 	color: #ffffff;
 	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .text {
 	color: #ffffff;
 	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .game {
