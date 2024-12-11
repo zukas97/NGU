@@ -34,8 +34,6 @@ function checkurl(inputstring) {
 
 	}
 }
-
-
 var iframe = document.getElementById('customSite');
 document.getElementById('setURL').addEventListener('click', function() {
 	var url = document.getElementById('urlInput').value;
@@ -58,5 +56,4 @@ document.getElementById('reloadButton').addEventListener('click', function() {
 	//iframe.src = iframe.src;
 	iframe.contentWindow.location.reload();
 	console.log("reloaded");
-
 });
