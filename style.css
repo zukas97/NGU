@@ -9,6 +9,7 @@ html {
 	padding: 0;
 	margin-top: 0;
 	flex-direction: column;
+	overflow-x: hidden;
 
 }
 #urlbar {
@@ -53,9 +54,11 @@ html {
 	height: 100%;
 	z-index: 2;
 	transition: width 0.5s;
-	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: scroll;
 	text-align: center;
 	color: #ffffff;
+	scrollbar-width: none;  /* Firefox */
 }
 #navbar:hover .button{
 	width: 100%;
@@ -76,18 +79,33 @@ html {
 #navbar:hover {
 	width: 10%;
 }
+.heading {
+	font-size: 35px;
+	color: #ffffff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	position: relative;
+	z-index: 3;
+}
 
 #titlebar {
 	text-align: center;
 	color: #ebebeb;
-	background-color: #181818;
 	top: 0;
-	margin-top: 0;
+	margin-top: auto;
 	padding: 1px;
 	position: sticky;
-	z-index: 1;
-	width: 99%
+	z-index: 0;
+	width: 99%;
 	margin-left: 1%;
+	background-image: linear-gradient(45deg, #1b232d, #101425);
+	
+	/*background-image: url("./images/keyboard.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-position-y: 50%;*/
+
 }
 .button {
 
@@ -98,10 +116,6 @@ html {
 	visibility: hidden;
 }
 
-.heading {
-	font-size: 35px;
-	color: #ffffff;
-}
 .subheading {
 	color: #ffffff;
 	text-align: center;
