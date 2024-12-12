@@ -11,8 +11,9 @@ function checkurl(inputstring) {
 	    const containsAdultContent = adultKeywords.some(keyword => textContent.toLowerCase().includes(keyword));
 
 	    console.log('Contains adult content:', containsAdultContent);
+		blocked = true;
 	  })
-	  .catch(blocked = true);
+	  .catch(blocked = false);
 
 }
 document.getElementById('setURL').addEventListener('click', function() {
