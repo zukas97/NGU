@@ -1,6 +1,6 @@
 var blocked = false;
 function checkurl(inputstring) {
-	fetch('https://example.com')
+	fetch('inputstring')
 	  .then(response => response.text())
 	  .then(html => {
 	    const parser = new DOMParser();
