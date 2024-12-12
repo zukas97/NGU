@@ -21,11 +21,11 @@ html {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	position: absolute;
+	/*position: absolute;
 	left: 30%;
 	right: 30%;
 	bottom: 0;
-	margin-bottom: 5px;
+	margin-bottom: 5px;*/
 }
 #github {
 	width: 150px;
