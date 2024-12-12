@@ -16,8 +16,12 @@ function checkurl(inputstring) {
 	  .catch(blocked = false);
 
 }
- function set_url(iframe) {
+document.getElementById('setURL').addEventListener('click', function() {
+	var iframe = document.getElementById('customSite');
+	var url = document.getElementById('urlInput').value;
+	
 
+	checkurl(url);
 	if (!blocked) {
 		iframe.src = url;
 	}
@@ -25,33 +29,9 @@ function checkurl(inputstring) {
 		console.log("page blocked");
 		alert("page blocked");
 	}
-const input = document.getElementById('urlInput')
-const url = input.value;
-input.addEventListener('keydown', (event) =>{
-	if (event.key === 'Enter') {
-		checkurl(url);
-		set_url(iframe);
-	}
-});
-
-document.getElementById('setURL').addEventListener('click', function() {
-	const iframe = document.getElementById('customSite');
-	const input = document.getElementById('urlInput')
-	const url = input.value;
-	input.addEventListener('keydown', (event) =>{
-		if (event.key === 'Enter') {
-			checkurl(url);
-			set_url(iframe);
-		}
-	});
-	
-
-	checkurl(url);
-	set_url(iframe);
-
 
 });
- }
+
 
 
 document.getElementById('reloadButton').addEventListener('click', function() {

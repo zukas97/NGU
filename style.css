@@ -27,7 +27,7 @@ html {
 	right: 30%;
 	bottom: 0;*/
 	margin-bottom: 5px;
-	margin-left: 3%;
+	/*! margin-left: 3%; */
 }
 #github {
 	width: 150px;
@@ -113,8 +113,8 @@ html {
 #title_background {
 	position: absolute;
 	top: -5px;
-	left: -5px;
-	right: -5px;
+	left: -3%;
+	right: 0;
 	background-image: url("./images/keyboard.jpg");
 	padding: 1px;
 	padding-top: 5%;
@@ -125,6 +125,9 @@ html {
 	background-position-y: 50%;
 	z-index: 0;
 
+}
+#urlInput {
+	border-radius: 5px;
 }
 .button {
 
@@ -151,6 +154,7 @@ html {
 	float: right;
 	width: 96%;
 	height: 48vw;
+	border-radius: 8px;
 }
 
 .logo {
