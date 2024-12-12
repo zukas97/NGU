@@ -24,8 +24,9 @@ html {
 	/*position: absolute;
 	left: 30%;
 	right: 30%;
-	bottom: 0;
-	margin-bottom: 5px;*/
+	bottom: 0;*/
+	margin-bottom: 5px;
+	margin-left: 3%;
 }
 #github {
 	width: 150px;
