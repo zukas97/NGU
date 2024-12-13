@@ -26,6 +26,7 @@ html {
 	right: 30%;
 	bottom: 0;*/
 	margin-bottom: 5px;
+	margin-left: 3%;
 }
 #github {
 	width: 150px;
@@ -153,4 +154,8 @@ html {
 
 .logo {
 	width: 3vw;
+}
+
+.paragraphs {
+	margin-left: 3%;
 }
