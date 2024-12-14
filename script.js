@@ -13,7 +13,7 @@ function checkurl(inputstring) {
 	    console.log('Contains adult content:', containsAdultContent);
 		blocked = true;
 	  })
-	  //.catch(blocked = false);
+	  .catch(blocked = false);
 
 }
 
