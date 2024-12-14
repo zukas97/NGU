@@ -13,14 +13,32 @@ function checkurl(inputstring) {
 	    console.log('Contains adult content:', containsAdultContent);
 		blocked = true;
 	  })
-	  .catch(blocked = false);
+	  //.catch(blocked = false);
 
 }
+/*
 document.getElementById('setURL').addEventListener('click', function() {
 	var iframe = document.getElementById('customSite');
 	var url = document.getElementById('urlInput').value;
-	
+});
+input.addEventListener('keydown', (event) =>{
+	if (event.key === 'Enter') {
+		if (!blocked) {
+		iframe.src = url;
+	}
+	else if (blocked) {
+		console.log("page blocked");
+		alert("page blocked");
+	}
+	checkurl(url);
+	}
+});*/
 
+document.getElementById('setURL').addEventListener('click', function() {
+	const iframe = document.getElementById('customSite');
+	const input = document.getElementById('urlInput')
+	const url = input.value;
+	
 	checkurl(url);
 	if (!blocked) {
 		iframe.src = url;
@@ -31,8 +49,6 @@ document.getElementById('setURL').addEventListener('click', function() {
 	}
 
 });
-
-
 
 document.getElementById('reloadButton').addEventListener('click', function() {
 	var iframe = document.getElementById('customSite');

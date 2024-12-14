@@ -1,6 +1,5 @@
 body {
 	margin:0;
-	margin-left: 3%;
 	background-color: #404040;
 	flex-direction: column;
 	flex: 1;
@@ -159,4 +158,8 @@ html {
 
 .logo {
 	width: 3vw;
+}
+
+.paragraphs {
+	margin-left: 3%;
 }
