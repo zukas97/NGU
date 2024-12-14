@@ -151,7 +151,7 @@ html {
 #game {
 	text-align: right;
 	float: right;
-	width: 96%;
+	width: 96vw;
 	height: 95vh;
 	border-radius: 8px;
 }
