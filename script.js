@@ -3,7 +3,7 @@ const navbar = document.getElementById('nav-placeholder');
 	const url = game.src;
 document.getElementById("fscreen").addEventListener('click', function() {
 	document.documentElement.requestFullscreen()
-	navbar.style.display = none;
+	navbar.style.display = "none";
 	game.style.height = '100vh';
 	game.style.width = '100vw';
 	game.style.zindex = 5;
