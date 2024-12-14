@@ -7,11 +7,11 @@ fsbttn.addEventListener('click', function() {
 	navbar.style.display = "none";
 	game.style.height = '100vh';
 	game.style.width = '100vw';
-	game.src = url;
+	//game.src = url;
 	//iframe.contentWindow.location.reload();
-	/*if (game.src == "https://windowslover1234.github.io/games/slope/"){
+	if (game.src == "https://windowslover1234.github.io/games/slope/"){
 		game.src = url;
-	}*/
+	}
 });
 
 document.addEventListener("fullscreenchange", adjustElementSize);
@@ -20,9 +20,9 @@ function adjustElementSize() {
 	if (document.fullscreenElement) {
 		navbar.style.display = "none";
 		document.body.overflow = 'hidden';
-	//	if (game.src === "https://windowslover1234.github.io/games/slope/"){
+		if (game.src === "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
-		//}
+		}
 	}
 	else {
 		navbar.style.display = "block";
@@ -30,8 +30,8 @@ function adjustElementSize() {
 		game.style.width = '96vw';
 		document.body.overflow = 'scroll';
 		//game.src = url;
-		//if (game.src == "https://windowslover1234.github.io/games/slope/"){
+		if (game.src == "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
-		//}
+		}
 	}
 }
