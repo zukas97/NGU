@@ -20,6 +20,7 @@ function checkurl(inputstring) {
 document.getElementById('urlInput').addEventListener('keydown', function(event) {
 	const iframe = document.getElementById('customSite');
 	const input = document.getElementById('urlInput')
+	const url = input.value;
 	if (event.key === 'Enter') {
 		if (!blocked) {
 			iframe.src = url;
