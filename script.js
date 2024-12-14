@@ -16,23 +16,21 @@ function checkurl(inputstring) {
 	  //.catch(blocked = false);
 
 }
-/*
-document.getElementById('setURL').addEventListener('click', function() {
-	var iframe = document.getElementById('customSite');
-	var url = document.getElementById('urlInput').value;
-});
-input.addEventListener('keydown', (event) =>{
+
+document.getElementById('urlInput').addEventListener('keydown', function(event) {
+	const iframe = document.getElementById('customSite');
+	const input = document.getElementById('urlInput')
 	if (event.key === 'Enter') {
 		if (!blocked) {
-		iframe.src = url;
+			iframe.src = url;
+		}
+		else if (blocked) {
+			console.log("page blocked");
+			alert("page blocked");
+		}
+	
 	}
-	else if (blocked) {
-		console.log("page blocked");
-		alert("page blocked");
-	}
-	checkurl(url);
-	}
-});*/
+});
 
 document.getElementById('setURL').addEventListener('click', function() {
 	const iframe = document.getElementById('customSite');
