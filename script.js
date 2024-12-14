@@ -16,12 +16,14 @@ document.addEventListener("fullscreenchange", adjustElementSize);
 function adjustElementSize() {
 	if (document.fullscreenElement) {
 		navbar.style.display = "none";
+		document.body.overflow = 'hidden';
 		game.src = url;
 	}
 	else {
 		navbar.style.display = "block";
 		game.style.height = '95vh';
 		game.style.width = '96vw';
+		document.body.overflow = 'scroll';
 		game.src = url;
 	}
 }

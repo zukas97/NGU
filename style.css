@@ -18,7 +18,7 @@ html {
 }
 #footer {
 	text-align: center;
-	align-items: center;
+align-items: center;
 	display: flex;
 	justify-content: center;
 	/*position: absolute;
@@ -162,4 +162,15 @@ html {
 
 .paragraphs {
 	margin-left: 3%;
+}
+
+#fscreen {
+	position: relative;
+	bottom: 0;
+	width: 5.5vw;
+	margin-left: 47.25vw;
+	margin-right: 47.25vw;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
 }
