@@ -176,6 +176,7 @@ align-items: center;
 }
 
 #customSite {
+	border-radius: 5px;
 	text-align: right;
 	float: right;
 	width: 96vw;
