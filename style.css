@@ -174,3 +174,11 @@ align-items: center;
 	margin-bottom: 5px;
 	text-align: center;
 }
+
+#customSite {
+	text-align: right;
+	float: right;
+	width: 96vw;
+	height: 95vh;
+	border-radius: 8px;
+}
