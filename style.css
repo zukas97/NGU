@@ -154,6 +154,7 @@ align-items: center;
 	width: 96vw;
 	height: 99vh;
 	border-radius: 8px;
+	border: 1px;
 }
 
 .logo {
