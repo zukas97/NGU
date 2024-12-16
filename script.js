@@ -19,6 +19,7 @@ document.addEventListener("fullscreenchange", adjustElementSize);
 function adjustElementSize() {
 	if (document.fullscreenElement) {
 		navbar.style.display = "none";
+		fsbttn.style.display = 'none'
 		document.body.overflow = 'hidden';
 		if (game.src === "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
@@ -26,6 +27,7 @@ function adjustElementSize() {
 	}
 	else {
 		navbar.style.display = "block";
+		fsbttn.style.display = "block";
 		game.style.height = '95vh';
 		game.style.width = '96vw';
 		document.body.overflow = 'scroll';
