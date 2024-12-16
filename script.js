@@ -1,6 +1,7 @@
 const game = document.getElementById("game");
 const navbar = document.getElementById('nav-placeholder');
 const fsbttn = document.getElementById("fscreen")
+const slopeText = document.getElementById("slope-text");
 const url = game.src;
 fsbttn.addEventListener('click', function() {
 	document.documentElement.requestFullscreen()
@@ -23,6 +24,7 @@ function adjustElementSize() {
 		document.body.overflow = 'hidden';
 		if (game.src === "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
+			slopeText.style.display = 'none';
 		}
 	}
 	else {
@@ -35,6 +37,7 @@ function adjustElementSize() {
 		document.body.overflow = 'scroll';
 		if (game.src == "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
+			slopeText.style.display = 'block';
 		}
 	}
 }
