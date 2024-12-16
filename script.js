@@ -7,8 +7,6 @@ fsbttn.addEventListener('click', function() {
 	navbar.style.display = "none";
 	game.style.height = '100vh';
 	game.style.width = '100vw';
-	//game.src = url;
-	//iframe.contentWindow.location.reload();
 	if (game.src == "https://windowslover1234.github.io/games/slope/"){
 		game.src = url;
 	}
@@ -30,12 +28,11 @@ function adjustElementSize() {
 	else {
 		navbar.style.display = "block";
 		fsbttn.style.display = "block";
-		game.style.height = '95vh';
-		game.style.width = '99vw';
+		game.style.height = '99vh';
+		game.style.width = '96vw';
 		game.style.border = '1px';
 		game.style.borderRadius = '8px';
 		document.body.overflow = 'scroll';
-		//game.src = url;
 		if (game.src == "https://windowslover1234.github.io/games/slope/"){
 			game.src = url;
 		}
