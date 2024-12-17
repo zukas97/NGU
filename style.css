@@ -64,7 +64,7 @@ align-items: center;
 	overflow-y: scroll;
 	text-align: center;
 	color: #ffffff;
-	scrollbar-width: none;  /* Firefox */
+	scrollbar-width: none;
 }
 #navbar:hover .button{
 	width: 100%;
@@ -103,11 +103,8 @@ align-items: center;
 	width: 99%;
 	margin-left: 1%;
 	z-index: 1;
-	/*background-image: linear-gradient(45deg, #1b232d, #101425);*/
 	padding-top: 5%;
 	padding-bottom: 5%;
-	
-
 }
 #title_background {
 	position: absolute;
