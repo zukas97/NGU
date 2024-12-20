@@ -21,12 +21,7 @@ html {
 align-items: center;
 	display: flex;
 	justify-content: center;
-	/*position: absolute;
-	left: 30%;
-	right: 30%;
-	bottom: 0;*/
 	margin-bottom: 5px;
-	/*! margin-left: 3%; */
 }
 #github {
 	width: 150px;
@@ -178,6 +173,6 @@ align-items: center;
 	text-align: right;
 	float: right;
 	width: 96vw;
-	height: 95vh;
+	height: 98vh;
 	border-radius: 8px;
 }
