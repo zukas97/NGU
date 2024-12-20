@@ -35,7 +35,8 @@ html {
 	align-self: center;
 	text-align: center;
 
-	border: 0;
+	border: 2px;
+	border-color: white;
 	cursor: pointer;
 	transition: background-color 0.3s;
 
@@ -123,6 +124,13 @@ html {
 }
 #urlInput {
 	border-radius: 5px;
+	background-color: #313131;
+	border: 0;
+	padding: 5px;
+	color: white;
+}
+#urlInput:focus {
+	border: 0;
 }
 .button {
 
@@ -179,7 +187,6 @@ html {
 
 #fscreen:hover {
 	background-color: #313131;
-
 }
 
 #customSite {
@@ -190,3 +197,28 @@ html {
 	height: 98vh;
 	border-radius: 8px;
 }
+
+#setURL {
+	background-color: #1f1f1f;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+
+}
+#setURL:hover {
+	background-color: #313131;
+}
+
+#reloadButton {
+	background-color: #1f1f1f;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+
+}
+#reloadButton:hover {
+	background-color: #313131;
+}
+
