@@ -1,6 +1,6 @@
 body {
 	margin:0;
-	background-color: #404040;
+	background-color: #101010;
 	flex-direction: column;
 	flex: 1;
 }
@@ -18,7 +18,7 @@ html {
 }
 #footer {
 	text-align: center;
-align-items: center;
+	align-items: center;
 	display: flex;
 	justify-content: center;
 	margin-bottom: 5px;
@@ -35,7 +35,8 @@ align-items: center;
 	align-self: center;
 	text-align: center;
 
-	border: 0;
+	border: 2px;
+	border-color: white;
 	cursor: pointer;
 	transition: background-color 0.3s;
 
@@ -47,7 +48,9 @@ align-items: center;
 }
 #navbar {
 	padding-top: 80px;
-	background-color: #2f333e;
+	background-color: #171717;
+	border-right: 1000px;
+	border-color: #ffffff;
 	top: 0;
 	left: 0;
 	position: fixed;
@@ -63,7 +66,7 @@ align-items: center;
 }
 #navbar:hover .button{
 	width: 100%;
-	background-color: #2f333e;
+	background-color: #171717;
 	color:white;
 	border: 0;
 	transition: background-color 0.3s;
@@ -71,9 +74,10 @@ align-items: center;
 	font-size: 80%;
 	cursor: pointer;
 	display: block;
+	border-radius: 8px;
 }
 #navbar:hover .button:hover {
-	background-color: #4b5163;
+	background-color: #393939;
 	cursor: pointer;
 }
 
@@ -119,6 +123,13 @@ align-items: center;
 }
 #urlInput {
 	border-radius: 5px;
+	background-color: #313131;
+	border: 0;
+	padding: 5px;
+	color: white;
+}
+#urlInput:focus {
+	border: 0;
 }
 .button {
 
@@ -166,6 +177,15 @@ align-items: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
 	text-align: center;
+	background-color: #1f1f1f;
+	padding: 5px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+}
+
+#fscreen:hover {
+	background-color: #313131;
 }
 
 #customSite {
@@ -176,3 +196,28 @@ align-items: center;
 	height: 98vh;
 	border-radius: 8px;
 }
+
+#setURL {
+	background-color: #1f1f1f;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+
+}
+#setURL:hover {
+	background-color: #313131;
+}
+
+#reloadButton {
+	background-color: #1f1f1f;
+	padding: 8px;
+	color: white;
+	border-radius: 8px;
+	border: 0;
+
+}
+#reloadButton:hover {
+	background-color: #313131;
+}
+
