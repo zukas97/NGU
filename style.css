@@ -48,7 +48,7 @@ html {
 }
 #navbar {
 	padding-top: 80px;
-	background-color: #131313;
+	background-color: #171717;
 	border-right: 1000px;
 	border-color: #ffffff;
 	top: 0;
@@ -66,8 +66,7 @@ html {
 }
 #navbar:hover .button{
 	width: 100%;
-	background-color: #2f333e;
-	background-color: #131313;
+	background-color: #171717;
 	color:white;
 	border: 0;
 	transition: background-color 0.3s;
