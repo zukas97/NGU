@@ -20,8 +20,10 @@ html {
 	text-align: center;
 	align-items: center;
 	display: flex;
+	align-self: bottom;
 	justify-content: center;
 	margin-bottom: 5px;
+	bottom: 0;
 }
 #github {
 	width: 150px;
