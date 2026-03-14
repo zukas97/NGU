@@ -1,5 +1,5 @@
 const game = document.getElementById("game");
-const navbar = document.getElementById('nav-placeholder');
+const navbar = document.getElementById('navbar');
 const fsbttn = document.getElementById("fscreen")
 const slopeText = document.getElementById("slope-text");
 const url = game.src;

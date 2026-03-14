@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://code.jquery.com/jquery-1.10.2.js">
+		if (game.src != null) {
+			home = false;
+		} else {
+			home = true;
+		}
+	</script>
+	<title>NGU - New Gamer Union</title>
+	<div id="navbar">
+		<img src="./images/NGU.png" class="logo"> 
+		<button class="button" onclick="location='./index.html'">Home</button>
+		<button class="button" onclick="location='./game.html?game=slope'">Slope</button>
+		<button class="button" onclick="location='./game.html?game=paper'">Paper.io</button>
+		<button class="button" onclick="location='./game.html?game=paper-server'">Paper.io Server</button>
+		<button class="button" onclick="location='./game.html?game=subway'">Subway Surfers</button>
+		<button class="button" onclick="location='./game.html?game=helix'">Helix Jump</button>
+		<button class="button" onclick="location='./game.html?game=run'">Run 3</button>
+		<button class="button" onclick="location='./game.html?game=krunker'">Krunker</button>
+		<button class="button" onclick="location='./game.html?game=bloxd'">Bloxd.io</button>
+		<button class="button" onclick="location='./game.html?game=snowrider'">Showrider HD</button>
+		<button class="button" onclick="location='./game.html?game=taproad'">Tap Road</button>
+		<button class="button" onclick="location='./game.html?game=smashkarts'">Smash Karts</button>
+		<button class="button" onclick="location='./game.html?game=eaglecraft'">Eaglecraft</button>
+		<button class="button" onclick="location='./custom-site.html'">Custom Site</button>
+		<button class="button" onclick="location='./manifesto.html'">Anti-Gogaurdian Manifesto</button>
+		</div>
+	</div>
+
+	<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="./images/NGU.png">
+	</div>
+	<iframe id="game" src="game url" scrolling="no"></iframe>
+	<button id="fscreen">Fullscreen</button>
+	<script src="script.js"></script>
+	<script>
+		const params = new URLSearchParams(window.location.search);
+
+		const game_url = params.get('game');
+
+		const frame = document.getElementById("game");
+
+		switch (game_url) {
+			case "slope":
+				frame.src = "https://windowslover1234.github.io/games/slope/";
+				break;
+			case "paper":
+				frame.src = "https://paperio.site/";
+				break;
+			case "paper-server":
+				frame.src = "https://paper-io.com/ps/?s-us2pian0n6";
+				break;
+			case "subway":
+				frame.src = "https://dddavit.github.io/subway/";
+				break;
+			case "helix":
+				frame.src = "https://helixjumponline.com/";
+				break;
+			case "run":
+				frame.src = "https://lekug.github.io/tn6pS9dCf37xAhkJv/";
+				break;
+			case "krunker":
+				frame.src = "https://krunker.io";
+				break;
+			case "bloxd":
+				frame.src = "https://bloxd.io";
+				break;
+			case "snowrider":
+				frame.src = "https://snowrider3d.info/content/uploads/snow-rider-3d/";
+				break;
+			case "taproad":
+				frame.src = "https://azgames.io/game/tap-road/";
+				break;
+			case "smashkarts":
+				frame.src = "https://smashkarts.io/";
+				break;
+			case "eaglecraft":
+				frame.src = "https://eaglercraft.org/";
+				break
+
+			default:
+				frame.src = "https://example.com";
+				console.log(game_url);
+				alert("game not found")
+				break;
+		}
+		
+	</script>
+	</body>
+</html>
